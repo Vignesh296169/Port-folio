@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "MERN Todo",
+      "description": " Using MongoDB, Node Ji, andExpress Middleware Server in the Mern Todo app.",
+      "link": "https://master--vocal-toffee-4d90ae.netlify.app/"
+    },
+    {
+      "id": "p2",
+      "title": "Car-collect",
+      "description": "created with Redux/centralized Toolkit's state management and Tailwind",
+      "link": "https://main--dynamic-muffin-6a7f46.netlify.app/"
+    },
+    {
+      "id": "p3",
+      "title": "Portfolio",
+      "description": "With Json formatting, the MaterialUi-framework, Resources, and Contents are reusable.",
+      "link": false
+    },
+    {
+      "id": "p4",
+      "title": "Wheather App",
+      "description": "The sources are fetched from the openweathermap API using the axios fetching method.",
+      "link": "https://main--gleeful-pudding-af7aa6.netlify.app/"
+    },
+    {
+      "id": "p5",
+      "title": "Image Searcher",
+      "description": "Using the unspalsh API to find a suitable image source",
+      "link": "https://aesthetic-capybara-b32924.netlify.app/"
+    },
+    {
+      "id": "p6",
+      "title": "Apple clone",
+      "description": "Created entirely with HTML and CSS tools",
+      "link": "https://vignesh296169.github.io/apple-site/"
+    },
+    {
+      "id": "p7",
+      "title": "Food delivery app",
+      "description": "Created with Reactjs",
+      "link": "https://frolicking-belekoy-34c390.netlify.app/"
+    }
+  ]
+}
