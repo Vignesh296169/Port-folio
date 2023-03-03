@@ -13,7 +13,11 @@ export default function Profile() {
       transition={{ delay: ".3", type: "spring", damping: "8" }}
       animate={{ y: "0px" }}
     >
+         
       <Container sx={{ padding: "2rem", mt: "5rem" }}>
+      <Link style={{ fontSize: "1.5rem" ,textDecoration:"underline"}} to="/skills">
+          Skills
+        </Link>
         <Paper sx={{ px: "3rem", py: "2rem" }}>
           <Grid container spacing={2}>
             <Grid item xs={12}>
@@ -41,9 +45,7 @@ export default function Profile() {
           </Grid>
         </Paper>
 
-        <Link style={{ fontSize: "1.5rem" }} to="/skills">
-          Skills
-        </Link>
+     
       </Container>
       <Container>
         <Box sx={{ display: "flex", gap: "2rem" }}>
