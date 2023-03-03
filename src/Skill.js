@@ -17,11 +17,12 @@ import { SiNodedotjs } from "react-icons/si";
 import { Container } from "@mui/system";
 import { Link } from "react-router-dom";
 import JavascriptIcon from '@mui/icons-material/Javascript';
+
 export default function Skill() {
   return (
     
     <Container sx={{marginTop:"2rem"}}> 
-    <List sx={{ bgcolor: "background.paper",display:"grid",gridTemplateColumns:"1fr 1fr"}}>
+    <List sx={{ bgcolor: "background.paper",display:"grid",gridTemplateColumns:"1fr 1fr",borderRadius:"10px"}}>
       <ListItem>
         <ListItemAvatar>
           <Avatar>
@@ -124,7 +125,7 @@ export default function Skill() {
         <ListItemText primary="NODE-JS" />
       </ListItem>
     </List>
-     <Link to="/" style={{background:"blue",position:"relative",left:"25rem",color:"white",top:"1rem"}}>HOME</Link>
+     <Link to="/" style={{background:"#865DFF",position:"relative",left:"25rem",color:"white",top:"1rem"}}>HOME</Link>
     </Container>  
   );
 }
