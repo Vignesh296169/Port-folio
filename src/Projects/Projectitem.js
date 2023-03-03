@@ -6,9 +6,9 @@ import React from "react";
 export default function Projectitem({ value }) {
  
   return (
-    <li>
+    <li >
 
-        <Box sx={{p:"2rem", lineHeight:"2"}}>
+        <Box sx={{p:"2rem", lineHeight:"2",textAlign:'center',}}>
            
           <Typography variant="h2" fontSize="35px" paddingBottom="4px" sx={{color:"#3E54AC"}}>
             {value.title}
