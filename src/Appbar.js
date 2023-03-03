@@ -6,7 +6,7 @@ import Avatar from "@mui/material/Avatar";
 import profile from "./Route/fgf.jpg";
 import { motion } from "framer-motion";
 import Face6RoundedIcon from "@mui/icons-material/Face6Rounded";
-
+import { Link } from "react-router-dom";
 export default function Appbar() {
  
   const Stylebar = styled(AppBar)({
@@ -26,7 +26,7 @@ export default function Appbar() {
   const day = date.toLocaleString("en-US", { weekday: "long" }); // Get the full name of the day
   const navMotion = {
     initial: {
-      y: "-100px",
+      y: "-80px",
     },
     animate: {
       y: "0px",
@@ -41,7 +41,8 @@ export default function Appbar() {
       <Stylebar
         color="secondary"
         position="sticky"
-        sx={{ borderRadius: ".3rem", opacity: "0.9" }}
+        
+        sx={{ borderRadius: ".3rem", opacity: "0.9",top:"10px" }}
       >
         <Toolbar
           variant="regular"
@@ -53,7 +54,8 @@ export default function Appbar() {
               sx={{ cursor: "pointer", "&:hover": { color: "bisque" } }}
             >
               {" "}
-              Portfolio
+              <Link to="/" style={{color:"inherit",textDecoration:"none"}}> Portfolio</Link>
+            
             </Typography>
           </Box>
           <Box
@@ -65,12 +67,12 @@ export default function Appbar() {
             }}
           >
             <Typography
-              variant="h6"
-              component="a"
+              variant="p"
+              component="p"
               mx="1em"
               sx={{ "&:hover": { color: "bisque" } }}
             >
-              Projects
+              <Link to="project" style={{color:"inherit"}}>Projects</Link> 
             </Typography>
             <div onMouseEnter={mosuehandler} onMouseLeave={leavehandler}>
               <Avatar alt="vignesh prfile" src={profile} />

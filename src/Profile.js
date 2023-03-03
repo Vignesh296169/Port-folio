@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 import { AiFillBehanceCircle } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
-import{motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Profile() {
-
   return (
-    <motion.div initial={{y:"-90px"}} transition={{delay:".3",type:"spring",damping:"8"}} animate={{y:"0px"}}>
+    <motion.div
+      initial={{ y: "-90px" }}
+      transition={{ delay: ".3", type: "spring", damping: "8" }}
+      animate={{ y: "0px" }}
+    >
       <Container sx={{ padding: "2rem", mt: "5rem" }}>
         <Paper sx={{ px: "3rem", py: "2rem" }}>
           <Grid container spacing={2}>
@@ -28,11 +31,11 @@ export default function Profile() {
                 variant="h6"
                 sx={{ fontSize: "1.5rem", fontStyle: "initial" }}
               >
-                I am a newcomer to the development field, but I have worked hard
-                to learn those skills. As a result of my coding abilities, I
-                leave my works in the project section. I am eager to work with
-                teams, contribute my skills, and continue to learn. Thank you
-                for looking my portfolio!
+                Hello and welcome to my portfolio! , I am excited to share my
+                journey with you and demonstrate my skills and experiences. I
+                hope to demonstrate my passion, dedication, and growth in the
+                development field through this portfolio. I hope you enjoy my
+                work. Thank you for taking the time to look over my portfolio!
               </Typography>
             </Grid>
           </Grid>

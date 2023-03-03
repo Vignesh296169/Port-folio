@@ -1,7 +1,27 @@
-import React from 'react'
+import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 
-export default function Projectitem() {
+import React from "react";
+
+export default function Projectitem({ value }) {
+ 
   return (
-    <div>Projectitem</div>
-  )
+    <li>
+
+        <Box sx={{p:"2rem", lineHeight:"2"}}>
+           
+          <Typography variant="h2" fontSize="35px" paddingBottom="4px" sx={{color:"#3E54AC"}}>
+            {value.title}
+          </Typography>
+          
+          <Typography variant="p">{value.description}</Typography>
+          <Typography variant="p" >
+            {" "}
+            <a href={value.link ? value.link : ""} style={{color:"#95BDFF",fontWeight:"bolder"}}>Link</a>
+          </Typography>
+
+        </Box>
+      
+    </li>
+  );
 }
