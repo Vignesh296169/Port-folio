@@ -7,6 +7,12 @@
       "link": "https://master--vocal-toffee-4d90ae.netlify.app/"
     },
     {
+      "id": "px",
+      "title": "Room-Booking-Site",
+      "description": " This is a full stack functional project on Jwt, React, and Node.js. SQL database Nosql",
+      "link": "https://github.com/Vignesh296169/roomBooking"
+    },
+    {
       "id": "p2",
       "title": "Car-collector",
       "description": "created with Redux/centralized Toolkit's state management and Tailwind CSS framework",
